@@ -1,0 +1,9 @@
+Please parse the following social media post. If it describes an event, please respond with the following fields in JSON format:
+
+- `event_name`: string
+- `start_date`: timestamp string including year, month, day and time in the format `YYMMDDTHH:mm`
+- `artist`: optional string, name of artist(s)
+- `location`: string of event address or location
+- `other_notes`: optional string of any other notes, if applicable
+
+If it does not describe an event, please respond with an empty JSON object `{}`.
